@@ -63,14 +63,14 @@ export default function useSeriesEvents<
   );
   const onPointerOut = useCallback(
     (event: PointerEvent) => {
-      hideTooltip();
+      // hideTooltip();
       if (event && onPointerOutProps) onPointerOutProps(event);
     },
     [hideTooltip, onPointerOutProps],
   );
   const onBlur = useCallback(
     (event: FocusEvent) => {
-      hideTooltip();
+     // hideTooltip();
       if (event && onBlurProps) onBlurProps(event);
     },
     [hideTooltip, onBlurProps],
