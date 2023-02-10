@@ -35,6 +35,9 @@
   "publishConfig": {
     "access": "public"
   },
+  "scripts": {
+    "postinstall": "npm install && npm run build"
+  },
   "peerDependencies": {
     "@react-spring/web": "^9.4.5",
     "react": "^16.8.0 || ^17.0.0 || ^ 18.0.0"
