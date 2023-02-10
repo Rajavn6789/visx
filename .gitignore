@@ -19,6 +19,7 @@ build/
 coverage/
 dist/
 esm/
+!/packages/visx-xychart/esm/
 lib/
 node_modules/
 tmp/
